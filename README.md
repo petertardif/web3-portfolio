@@ -2,11 +2,11 @@
 
 Explore the latest insights and metrics of your cryptocurrency and NFTs with our state-of-the-art Web3 portfolio. Whether you're a seasoned crypto enthusiast or just starting your journey, you'll find the most comprehensive and actionable data to make informed decisions.
 
-# The Best Web3 Portfolio
+## The Best Web3 Portfolio
 
 Our platform provides a seamless, secure, and intuitive interface to view and manage your crypto and NFT assets. With real-time updates and cutting-edge analytics tools, you'll always stay ahead of the game.
 
-# Key Features
+## Key Features
 
 Real-time data on the crypto and NFT markets
 Advanced analytics tools and charts to track market trends and sentiment
@@ -14,7 +14,7 @@ Secure and easy management of your crypto and NFT assets
 Integration with popular Web3 wallets and exchanges
 Personalized portfolio tracking and performance metrics
 
-# Get Started Today
+## Get Started Today
 
 Join the community of savvy investors and traders who are taking control of their crypto and NFT portfolios with our Web3 platform. Sign up now and experience the future of crypto and NFT analytics.
 
