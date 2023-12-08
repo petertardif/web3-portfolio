@@ -1,0 +1,44 @@
+.header {
+	background-color: var(--background-color);
+	color: var(--text-color);
+	padding: 10px 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	transition: all 0.3s ease;
+	position: relative;
+	z-index: 1000;
+	box-shadow: 0 0.5px 5px var(--secondary-color); /* Add subtle shadow for non-sticky header */
+}
+
+.header.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	box-shadow: 0 0.5px 5px var(--secondary-color); /* Shadow for sticky header */
+}
+
+.brand {
+	display: flex;
+	align-items: center;
+}
+
+.brand-icon {
+	font-size: 24px;
+	margin-right: 10px;
+}
+
+.brand-name {
+	font-weight: bold;
+}
+
+.header-icons {
+	display: flex;
+	align-items: center;
+}
+
+.header-icons > * {
+	margin-left: 15px;
+	font-size: 18px;
+	cursor: pointer;
+}

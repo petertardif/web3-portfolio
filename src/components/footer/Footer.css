@@ -1,0 +1,40 @@
+.footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 12px;
+	background-color: var(--background-color);
+	color: var(--text-color);
+	padding: 10px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	z-index: 1;
+	box-shadow: 0 0.5px 2px var(--secondary-color); /* Add subtle shadow for non-sticky header */
+}
+
+.logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 1;
+}
+
+.left-links ul,
+.right-links ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.left-links li,
+.right-links li {
+	display: inline;
+	margin-right: 15px;
+}
+
+.left-links a,
+.right-links a {
+	color: var(--text-color);
+	text-decoration: none;
+}

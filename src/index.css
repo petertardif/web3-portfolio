@@ -1,13 +1,34 @@
+/* Light Theme */
+:root {
+	--primary-color: #77b9f7; /* Primary brand color */
+	--secondary-color: #808991; /* Secondary color */
+	--background-color: #f8f9fa; /* Background color */
+	--text-color: #1b2733; /* Default text color */
+}
+
+/* Dark Theme */
+:root.dark-theme {
+	/* Basic Colors - Dark Theme */
+	--primary-color: #ffd900;
+	--secondary-color: #736f5b;
+	--background-color: #1b2733;
+	--text-color: #f8f9fa;
+}
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	/* --primary-color: var(--primary-color-dark);
+	--secondary-color: var(--secondary-color-dark); */
+	background-color: var(--background-color);
+	color: var(--text-color);
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
 }
