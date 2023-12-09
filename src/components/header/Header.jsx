@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import ThemeToggle from '../ThemeToggle/ThemeToggle';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faCog, faCoins } from '@fortawesome/free-solid-svg-icons';
@@ -27,8 +28,10 @@ const Header = () => {
 	return (
 		<div className={`header ${isSticky ? 'sticky' : ''}`}>
 			<div className='brand'>
-				<FontAwesomeIcon className='brand-icon' icon={faCoins} />
-				<span className='brand-name'>Portfolios</span>
+				<Link to='/' className='header-links'>
+					<FontAwesomeIcon className='brand-icon' icon={faCoins} />
+					<span className='brand-icon'>Portfolios</span>
+				</Link>
 			</div>
 			<div className='header-icons'>
 				<ThemeToggle />
