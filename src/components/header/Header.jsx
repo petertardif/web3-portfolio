@@ -30,7 +30,7 @@ const Header = () => {
 			<div className='brand'>
 				<Link to='/' className='header-links'>
 					<FontAwesomeIcon className='brand-icon' icon={faCoins} />
-					<span className='brand-icon'>Portfolios</span>
+					<span className='brand-icon'>Firefolios</span>
 				</Link>
 			</div>
 			<div className='header-icons'>
